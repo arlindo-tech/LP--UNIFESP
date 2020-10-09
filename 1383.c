@@ -18,7 +18,7 @@ int verifica(int linha, int P, int m[9][9]){
         soma = soma + m[linha][I];
     }
 
-    if(soma == 45){
+    if(soma == 45){//ESSA CONDIÇÃO NÃO É SUFICIENTE. REFAZER A LÓGICA
         return 0;
     }else{
         return 1;
